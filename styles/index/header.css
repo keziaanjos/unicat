@@ -1,0 +1,42 @@
+.header-index {
+  background: #352953;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 26px;
+}
+.nav-index {
+  display: flex;
+  gap: 3rem;
+}
+.text-nav {
+  color: #FFF;
+  font-family: "Londrina Solid";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.text-nav:hover {
+  text-decoration: none;
+  color: #FFF;
+  transform: scale(1.05);
+}
+.button-nav {
+  border-radius: 25px;
+  background: #FFC900;
+  padding: 10px 14px;
+  color: #FFF;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.button-nav:hover {
+  text-decoration: none;
+  color: #FFF;
+  transform: scale(1.05);
+}
