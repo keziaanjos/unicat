@@ -1,0 +1,47 @@
+.section-about {
+    background: #E4E2E2;
+    padding: 2rem 0 4rem 0;
+  }
+  .container-title {
+    text-align: center;
+    width: 100%;
+    color: #FFC900;
+    margin-bottom: 3rem;
+  }
+  .container-title h2 {
+    font-size: 3.8rem;
+  }
+  .wrapper-about {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14rem;
+    flex-wrap: wrap;
+  }
+  .paragraph-about {
+    max-width: 576px;
+    text-align: center;
+    color: #1C274C;
+    font-weight: 300;
+    font-size: 1.2rem;
+  }
+  .help-about {
+    text-align: center;
+    color: #1C274C;
+  }
+  .help-about h3 {
+    font-size: 2.6rem;
+  }
+  .help-about h3 span {
+    color: #FFC900;
+  }
+  .help-about button {
+    border-radius: 12px;
+    background: #FFC900;
+    padding: 0.3rem 0.5rem;
+    cursor: pointer;
+    border: none;
+    font-size: 1.4rem;
+  }
