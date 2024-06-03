@@ -1,0 +1,143 @@
+.section-cats {
+  padding: 80px 0rem;
+  min-height: 45vh;
+}
+.img-card-cat {
+  width: 300px;
+  height: 225px;
+  object-fit: cover;
+}
+.wrapper-cats {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin: 0 auto;
+  gap: 40px;
+}
+.card-cat {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 26px;
+  border: 1px solid #FFF;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  overflow: hidden;
+}
+.container-infos-cat {
+  padding: 1rem 1rem 0.8rem 1rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.infos-cat-2 {
+  display: flex;
+  flex-direction: column;
+}
+.infos-cat-2 > button {
+  color: #000025; 
+  font-size: 22px;
+  border-radius: 50px;
+  background: #FFC700;
+  border: none;
+  padding: 8px 4px;
+  font-weight: 900;
+  cursor: pointer;
+}
+.location-cat {
+  font-size: 12px;
+  font-weight: 300;
+  color: #000025; 
+}
+.infos-cat-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000025; 
+}
+.name-cat {
+  font-size: 22px;
+  color: #000025;
+  font-weight: 500;
+}
+
+.modal {
+  min-width: 1280px;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: none;
+  border-radius: 26px;
+  overflow: hidden;
+}
+.close-dialog {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  border-radius: 50%;
+  background: #FFC700;
+  width: 25px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+.container-dialog {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+}
+.image-cat-dialog {
+  width: 50%;
+}
+.infos-dialog {
+  padding: 30px;
+  width: 50%;
+}
+.dialog-name {
+  display: flex;
+  justify-content: space-between;
+  min-width: 100%;
+}
+.name-dialog {
+  font-size: 54px;
+  color: #FFC700; 
+  font-weight: 800;
+}
+.emoji-dialog {
+  width: 42px;
+  cursor: pointer;
+}
+.name-and-sex-dialog {
+  display: flex;
+  flex-direction: column;
+}
+.sex-name {
+  font-size: 14px;
+}
+.dialog-infos-1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 50px;
+  color: #000025; 
+}
+.name-and-value {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  text-align: center;
+}
+.propriedade {
+  font-size: 26px;
+}
+.value-propriedade {
+  font-size: 16px;
+  font-weight: 300;
+}
