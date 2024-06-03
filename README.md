@@ -13,7 +13,7 @@ O projeto UNICAT visa criar um ambiente mais seguro e saudável para os gatos na
 #### CRUD dos gatos
 Com intuito de começar o projeto UNICAT decidimos fazer uma aplicação CRUD com front e back de ponta a ponta. Nosso objetivo foi criar o CRUD de gatos, ou seja, cadastrar, editar, atualizar e excluir os gatos. Acabamos fazendo alguns adicionais que vão alem do CRUD como por exemplo uma pagina index so com a apresentação do projeto UNICAT.
 #### Painel
-Foi criado um painel com a tela de cadastrar novos gatos e a tela de visualizar os gatos podendo editar e excluir um por um. O painel não tem gerenciamento de acesso pois o foco do projeto é o CRUD dos gatos apresentados.
+Foi criado um painel com a tela de cadastrar novos gatos e a tela de visualizar os gatos podendo editar e excluir um por um. <b>O painel não tem gerenciamento de acesso pois o foco do projeto é o CRUD dos gatos.</b>
 
 ## Tecnologias usadas
  - HTML
