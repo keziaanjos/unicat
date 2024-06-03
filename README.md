@@ -23,6 +23,27 @@ Foi criado um painel com a tela de cadastrar novos gatos e a tela de visualizar 
  - phpmyadmin
  - PHP
 
+## Explicando o código
+#### config.php 
+O arquivo config.php serve para criar a conexão com o banco de dados.
+#### novo-gato.php
+O arquivo novo-gato.php tem um formulário para cadastrar um novo gato, a resposta desse formulário é enviada para o arquivo de salvar.
+#### editar-gato.php
+O arquivo editar-gato.php faz uma consulta do registro a ser editado com um WHERE do id enviado quando clicado no botão editar de uma linha especifica da tabela. Assim enviando o formulario novamente editado daquela linha específica.
+#### listar-gato.php
+O arquivo listar-gato.php faz um select * from gatos; (selecionando todos os gatos) e percorre por todos os resultados exibindo em uma tabela HTML.
+#### painel.php
+O arquivo painel.php é a pagina inical do painel, ele faz um switch case que recebe uma requisição quando o usuário clica no <a> dependendo do resultado da requisição ele inclui uma pagna especifica.
+#### salvar-gato.php
+O arquivo salvar-gato.php é o arquivo que faz as ações do CRUD no banco de dados, ele recebe as informações do formulario e dos botões e faz a interação com o banco de dados.
+#### vergatos.php
+O arquivo vergatos.php é a pagina que exibe os gatos no WEBSITE principal, seguindo a mesma lógica do listar-gato, ele percorre os resultados do select e exibe em forma de cards.
+#### modal.js
+O arquivo modal.js basicamente faz o modal da pagina vergatos funcionar, ele adiciona eventos nos botões para abrir e fechar o modal.
+#### index.html 
+O arquivo index.html é basicamente uma pagina feita só com o front que tem o intuito de apresentar o projeto UNICAT
+
+
 ## Conheça nosso site!
 ### Pagina Principal
 ![Pagina_principal](https://github.com/keziaanjos/unicat/assets/143471255/ec5e1482-76c1-4ed8-8a07-ce512ea54d63)
