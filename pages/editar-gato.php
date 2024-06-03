@@ -13,10 +13,10 @@ $row = $res->fetch_object();
 <h1>Editar gato</h1>
 <form action="?page=salvar" method="POST">
   <input type="hidden" name="acao" value="editar">
-  <input type="hidden" name="id" value="<?php print $row->id; ?>" required>
+  <input type="hidden" name="id" value="<?php print $row->id; ?>">
   <div class="mb-3">
     <label>Nome</label>
-    <input type="text" name="nome" id="" class="form-control" value="<?php print $row->nome ?>" required>
+    <input type="text" name="nome" id="" class="form-control" value="<?php print $row->nome ?>" required maxlength="45">
   </div>
   <div class="mb-3">
     <label>Idade</label>

@@ -10,22 +10,22 @@
   <input type="hidden" name="acao" value="cadastrar">
   <div class="mb-3">
     <label>Nome</label>
-    <input type="text" name="nome" id="" class="form-control">
+    <input type="text" name="nome" id="" class="form-control" required maxlength="45">
   </div>
   <div class="mb-3">
     <label>Idade</label>
-    <input type="number" name="idade" id="" class="form-control">
+    <input type="number" name="idade" id="" class="form-control" required>
   </div>
   <div class="mb-3">
     <label>Sexo</label>
-    <select name="sexo" id="" class="form-select">
+    <select name="sexo" id="" class="form-select" required>
       <option value="macho">Macho</option>
       <option value="fêmea">Fêmea</option>
     </select>
   </div>
   <div class="mb-3">
     <label>Peso</label>
-    <input type="number" name="peso" id="" class="form-control">
+    <input type="number" name="peso" id="" class="form-control" required>
   </div>
   <div class="mb-3">
     <label>Porte</label>
@@ -37,7 +37,7 @@
   </div>
   <div class="mb-3">
     <label>Personalidade</label>
-    <select name="personalidade" id="" class="form-select">
+    <select name="personalidade" id="" class="form-select" required>
       <option value="dócil">Dócil</option>
       <option value="tranquilo">tranquilo</option>
       <option value="raivoso">raivoso</option>
@@ -45,7 +45,7 @@
   </div>
   <div class="mb-3">
     <label>Imagem URL</label>
-    <input type="text" name="imagem" id="" class="form-control">
+    <input type="text" name="imagem" id="" class="form-control" required>
   </div>
   <div class="mb-3">
     <button type="submit" class="btn btn-primary">Enviar</button>
