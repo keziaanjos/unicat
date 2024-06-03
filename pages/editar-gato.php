@@ -13,18 +13,18 @@ $row = $res->fetch_object();
 <h1>Editar gato</h1>
 <form action="?page=salvar" method="POST">
   <input type="hidden" name="acao" value="editar">
-  <input type="hidden" name="id" value="<?php print $row->id; ?>">
+  <input type="hidden" name="id" value="<?php print $row->id; ?>" required>
   <div class="mb-3">
     <label>Nome</label>
-    <input type="text" name="nome" id="" class="form-control" value="<?php print $row->nome ?>">
+    <input type="text" name="nome" id="" class="form-control" value="<?php print $row->nome ?>" required>
   </div>
   <div class="mb-3">
     <label>Idade</label>
-    <input type="number" name="idade" id="" class="form-control" value="<?php print $row->idade ?>">
+    <input type="number" name="idade" id="" class="form-control" value="<?php print $row->idade ?>" required>
   </div>
   <div class="mb-3">
     <label>Sexo</label>
-    <select name="sexo" id="" class="form-select" value="<?php print $row->sexo ?>">
+    <select name="sexo" id="" class="form-select" value="<?php print $row->sexo ?>" required>
       <option value="<?php print $row->sexo ?>"><?php print $row->sexo ?> (atual)</option>
       <option value="macho">Macho</option>
       <option value="fêmea">Fêmea</option>
@@ -32,11 +32,11 @@ $row = $res->fetch_object();
   </div>
   <div class="mb-3">
     <label>Peso</label>
-    <input type="number" name="peso" id="" class="form-control" value="<?php print $row->peso ?>">
+    <input type="number" name="peso" id="" class="form-control" value="<?php print $row->peso ?>" required>
   </div>
   <div class="mb-3">
     <label>Porte</label>
-    <select name="porte" id="" class="form-select">
+    <select name="porte" id="" class="form-select" required>
       <option value="<?php print $row->porte ?>"><?php print $row->porte ?> (atual)</option>
       <option value="pequeno">Pequeno</option>
       <option value="médio">Médio</option>
@@ -45,7 +45,7 @@ $row = $res->fetch_object();
   </div>
   <div class="mb-3">
     <label>Personalidade</label>
-    <select name="personalidade" id="" class="form-select">
+    <select name="personalidade" id="" class="form-select" required>
       <option value="<?php print $row->personalidade ?>"><?php print $row->personalidade ?> (atual)</option>
       <option value="dócil">Dócil</option>
       <option value="tranquilo">tranquilo</option>
@@ -54,7 +54,7 @@ $row = $res->fetch_object();
   </div>
   <div class="mb-3">
     <label>Imagem URL</label>
-    <input type="text" name="imagem" id="" class="form-control" value="<?php print $row->imagem ?>">
+    <input type="text" name="imagem" id="" class="form-control" value="<?php print $row->imagem ?>" required>
   </div>
   <div class="mb-3">
     <button type="submit" class="btn btn-primary">Enviar</button>
